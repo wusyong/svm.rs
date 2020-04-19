@@ -5,6 +5,8 @@ authors = ["Yu-Wei Wu <wusyong9104@gmail.com>"]
 edition = "2018"
 license = "BSD-3-Clause"
 description = "FFI bindings to libsvm"
+license-file = "../LICENSE"
+repository = "https://github.com/wusyong/svm.rs"
 
 [build-dependencies]
 cc = "1.0"
