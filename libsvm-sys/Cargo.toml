@@ -2,7 +2,7 @@
 name = "libsvm-sys"
 version = "3.24.0"
 authors = ["Yu-Wei Wu <wusyong9104@gmail.com>"]
-edition = "2018"
+edition = "2021"
 license = "BSD-3-Clause"
 description = "FFI bindings to libsvm"
 repository = "https://github.com/wusyong/svm.rs"
