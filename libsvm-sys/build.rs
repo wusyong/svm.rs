@@ -1,6 +1,4 @@
-use anyhow::anyhow;
-use anyhow::bail;
-use anyhow::Result;
+use anyhow::{anyhow, bail, Result};
 use cfg_if::cfg_if;
 use once_cell::sync::OnceCell;
 use std::{
