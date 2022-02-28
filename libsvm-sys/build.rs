@@ -43,6 +43,7 @@ fn codegen() -> Result<()> {
 fn link() -> Result<()> {
     let library_dir = libsvm_library()?;
     println!("cargo:rustc-link-search={}", library_dir.display());
+    println!("cargo:rustc-link-lib=dylib=svm");
     Ok(())
 }
 
