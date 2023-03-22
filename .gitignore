@@ -1,1 +1,9 @@
-/target
+# editor
+*~
+.*~
+*.swp
+
+# binary
+*.so
+*.dll
+*.a
